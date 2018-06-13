@@ -1,0 +1,2 @@
+
+OPOS_SOURCE_DIR="~/CodeFoo/OPOS"
