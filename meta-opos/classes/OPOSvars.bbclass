@@ -1,2 +1,2 @@
 
-OPOS_SOURCE_DIR="~/CodeFoo/OPOS"
+OPOS_SOURCE_DIR="~/misc/OS/OPOS"

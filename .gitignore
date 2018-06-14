@@ -1,1 +1,4 @@
 bitbake
+build
+scripts
+meta
