@@ -1,3 +1,5 @@
+DESCRIPTION = "The OPOS Kernel"
+PR = "r1"
 SUMMARY = "Recipe to build the OPOS kernel"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=12f884d2ae1ff87c09e5b7ccc2c4ca7e"
@@ -13,5 +15,14 @@ SRC_URI = "file://kernel/kernel.c \
 
 S = "${WORKDIR}"
 
-# The inherit of module.bbclass will automatically name module packages with
-# "kernel-module-" prefix as required by the oe-core build environment.
+do_build() {
+echo "I am the first build"
+}
+
+do_install() {
+echo "I am opos install"
+}
+
+do_dompile() {
+echo "I am opos compile"
+}

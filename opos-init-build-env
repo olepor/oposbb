@@ -2,3 +2,4 @@ export PATH="$PATH:${HOME}/misc/OS/oposbb/bitbake/bin"
 # Activate the python virtual environment
 # source ${HOME}/misc/OS/oposbb/oposbb/bin/activate
 export PYTHONPATH=/home/olepor/misc/OS/oposbb/bitbake/lib:
+alias bb='bitbake'
